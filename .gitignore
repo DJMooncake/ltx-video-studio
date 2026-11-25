@@ -1,0 +1,16 @@
+# Python environment the program builds for itself
+.venv/
+pylibs/
+__pycache__/
+*.pyc
+
+# Downloaded models (about 10.6 GB, downloaded by the program on first start)
+models/
+*.part
+
+# Everything you make
+outputs/
+projects/
+app_settings.json
+selftest_settings.json
+*.log

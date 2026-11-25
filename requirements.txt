@@ -1,0 +1,20 @@
+# Python packages used by LTX Video Studio.
+# You normally do not need this file: the program installs these into its own private .venv folder on first start.
+# These are the exact versions it was tested with.
+#
+# Install PyTorch with NVIDIA (CUDA 12.1) support first:
+#   pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+# then:
+#   pip install -r requirements.txt
+numpy==1.26.2
+pillow>=9.5
+imageio==2.38.0
+imageio-ffmpeg==0.8.1
+diffusers==0.32.2
+transformers==4.46.1
+tokenizers==0.20.3
+accelerate==0.31.0
+safetensors==0.4.2
+sentencepiece==0.2.3
+protobuf>=3.20,<5
+huggingface-hub==0.26.2
